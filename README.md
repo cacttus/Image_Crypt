@@ -3,7 +3,7 @@
 
 Hash an image into a cubist montage. This is also reversible. 
 
-Neat visual effect and it works as a crude image crypto tool.
+Can also be usd for image encryption.
 
 ![Preview](./preview.png)
 
