@@ -1,9 +1,9 @@
 
 # Image Dicer
 
-Turn an image into a cubist montage of an size. This is also reversible. 
+Hash an image into a cubist montage. This is also reversible. 
 
-Neat visual effect and it also works as a crude image crypto tool.
+Neat visual effect and it works as a crude image crypto tool.
 
 ![Preview](./preview.png)
 
@@ -37,3 +37,5 @@ mask = Randomly change the colors of the pixels. Increases security and looks ki
 Add an image resizer to scale down the output
 
 Add a way to encrypt images that takes just a key (e.g. generate xsize ysize mask and iteration from the input key)
+
+Command line arguments.
