@@ -41,5 +41,3 @@ To Un-Scramble an image:
 * Add an image resizer to scale down the output
 
 * Add a way to encrypt images that takes just a key (e.g. generate xsize ysize mask and iteration from the input key)
-
-* Command line arguments.
