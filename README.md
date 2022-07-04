@@ -1,9 +1,7 @@
 
 # Image Dicer
 
-Hash an image into a cubist montage. This is also reversible. 
-
-Can also be usd for image encryption.
+Scramble an image into a _reversible_ montage.
 
 ![Preview](./preview.png)
 
