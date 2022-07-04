@@ -21,7 +21,7 @@ _With Jpg compression there may be visual artifacts when decrypting._
 
 # Command Line Options
 
-*Key, xsize, ysize, mask, and iterations all need to be the same to successfully decrypt an image.*
+To Scramble:
 
 * *key* = Set key to the value you want to unlock the image.
 
@@ -30,6 +30,11 @@ _With Jpg compression there may be visual artifacts when decrypting._
 * *iterations* = This will go over the pixels multiple times for greater scrambling: 3= very scrambled image, 1= light scrambling.
 
 * *mask* = Randomly change the colors of the pixels.
+
+To Un-Scramble:
+
+* Set Key, xsize, ysize, mask, and iterations to the same value
+
 
 # TODO
 
