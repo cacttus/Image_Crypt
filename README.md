@@ -21,7 +21,7 @@ _With Jpg compression there may be visual artifacts when decrypting._
 
 # Command Line Options
 
-To Scramble:
+To Scramble an image:
 
 * *key* = Set key to the value you want to unlock the image.
 
@@ -31,7 +31,7 @@ To Scramble:
 
 * *mask* = Randomly change the colors of the pixels.
 
-To Un-Scramble:
+To Un-Scramble an image:
 
 * Set Key, xsize, ysize, mask, and iterations to the same value
 
