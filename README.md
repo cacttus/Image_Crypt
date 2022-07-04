@@ -23,7 +23,7 @@ _With Jpg compression there may be visual artifacts when decrypting._
 
 To Scramble an image:
 
-* *key* = The value to un-scramble the image. E.g. the "passcode". ex:666
+* *key* = The value to un-scramble the image. E.g. the "passcode". ex:4444
 
 * *xsize/ysize* = For encrypting an image set x = 1 y = 1 as the size parameter. For a cubism montage set this higher (1080 x 512). ex: 256, 256
 
