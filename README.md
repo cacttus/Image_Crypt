@@ -8,27 +8,28 @@ Scramble an image into a _reversible_ montage.
 Masking Feature
 ![Masking Feature](./preview-mask.jpg)
 
-# How to Use
+# Build
 
-Windows: Compile and run with Windows tools (visual studio).
+* Windows: Compile and run with Windows tools (visual studio).
 
-Linux: Compile this with Mono or MonoDevelop. Run mono 
+* Linux: Compile this with Mono or MonoDevelop. Run mono 
 
 # File Formats
 
-Accepts Bmp, Jpg, Gif, Png formats. With Jpg compression there may be visual artifacts when decrypting.
+Accepts Bmp, Jpg, Gif, Png formats. 
+_With Jpg compression there may be visual artifacts when decrypting._
 
-# Options
+# Command Line Options
 
 *Key, xsize, ysize, mask, and iterations all need to be the same to successfully decrypt an image.*
 
-Key = Set key to the value you want to unlock the image.
+*key* = Set key to the value you want to unlock the image.
 
-xsize/ysize = For encrypting an image set x = 1 y = 1 as the size parameter. For a cubism montage set this higher (1080 x 512)
+*xsize/ysize* = For encrypting an image set x = 1 y = 1 as the size parameter. For a cubism montage set this higher (1080 x 512)
 
-iterations = This will go over the pixels multiple times for greater scrambling. I'd say set this max to 3 for encryption and 1 for montage.
+*iterations* = This will go over the pixels multiple times for greater scrambling: 3= very scrambled image, 1= light scrambling.
 
-mask = Randomly change the colors of the pixels. Increases security and looks kind of cool.
+*mask* = Randomly change the colors of the pixels.
 
 # TODO
 
