@@ -23,13 +23,13 @@ _With Jpg compression there may be visual artifacts when decrypting._
 
 To Scramble an image:
 
-* *key* = Set key to the value you want to use un-scramble the image. E.g. the "password".
+* *key* = The value to un-scramble the image. E.g. the "passcode". ex:666
 
-* *xsize/ysize* = For encrypting an image set x = 1 y = 1 as the size parameter. For a cubism montage set this higher (1080 x 512)
+* *xsize/ysize* = For encrypting an image set x = 1 y = 1 as the size parameter. For a cubism montage set this higher (1080 x 512). ex: 256, 256
 
-* *iterations* = This will go over the pixels multiple times for greater scrambling: 3= very scrambled image, 1= light scrambling.
+* *iterations* = This will go over the pixels multiple times for greater scrambling: 3= very scrambled image, 1= light scrambling. ex: 2
 
-* *mask* = Randomly change the colors of the pixels.
+* *mask* = Randomly change the colors of the pixels. ex: true
 
 To Un-Scramble an image:
 
